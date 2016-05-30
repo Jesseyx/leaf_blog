@@ -1,31 +1,14 @@
-body {
-    border-top: 5px solid #27a822;
-    border-bottom: 5px solid #27a822;
-    line-height: 21px;
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    color: rgb(48, 48, 48);
-}
-
 .container {
-    margin-top: 50px;
-}
+    margin-top: 5rem;
 
-a {
-    text-decoration: none;
-    // background-color: rgba(39, 168, 34, 0.06);
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover, a:focus {
-    color: #27A822;
-}
-
-p, address {
-    margin-bottom: 0;
+    > header {
+        p, address {
+            margin-bottom: 2rem;
+        }
+        p:last-child {
+            margin-bottom: 2rem;
+        }
+    }
 }
 
 .me {
@@ -35,79 +18,7 @@ p, address {
     border-radius: 50px;
 }
 
-header, section {
-    > h1 {
-        color: #27A822;
-    }
-}
 
-header {
-    > h1 {
-        margin-bottom: 20px;
-        line-height: 100%;
-        font-size: 250%;
-    }
-}
-
-.container {
-    > header {
-        p, address {
-            margin-bottom: 20px;
-        }
-        p:last-child {
-            margin-bottom: 20px;
-        }
-    }
-}
-
-section {
-    margin-bottom: 20px;
-    > h1 {
-        text-transform: uppercase;
-        line-height: 120%;
-        font-size: 140%;
-    }
-}
-
-article {
-    margin-bottom: 20px;
-    > header {
-        > h1 {
-            margin-bottom: 0;
-            line-height: 150%;
-            font-size: 112%;
-            font-weight: bold;
-            color: inherit;
-        }
-
-        > span + span {
-            margin-left: 2px;
-            &::before {
-                content: '@';
-                margin-right: 4px;
-            }
-        }
-
-        > span {
-            font-size: 100%;
-            color: #808080;
-            a {
-                color: inherit;
-            }
-        }
-
-        address {
-            display: inline;
-            + time {
-                margin-left: 6px;
-                &::before {
-                    content: '-';
-                    margin-right: 6px;
-                }
-            }
-        }
-    }
-}
 
 em {
     // margin-right: 6px;

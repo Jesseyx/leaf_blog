@@ -17,73 +17,38 @@
 </head>
 <body>
 <div class="container">
-    <header class="three columns">
-        <img class="me" src="<%- url_for(theme.avatar) %>" alt="avatar">
-        <h1>Jesseyx</h1>
-        <p>
-            <a href="#">+44 0000 000000</a>
-        </p>
-        <address>
-            <a href="#">
-                44 dasdasdas Street<br>
-                EH3 5BL<br>
-                Edinburgh<br>
-                United Kingdom
-            </a>
-        </address>
-        <p>
-            <a href="#">github.io/Jesseyx</a><br/>
-        </p>
-        <p>
-            <a href="#">christurner@me.com</a><br/>
-            <a href="https://github.com/site.github"><i class="fa fa-github"></i> Github</a> /
-            <a href="https://twitter.com/site.twitter"><i class="fa fa-twitter"></i> Twitter</a>
-        </p>
-    </header>
-    <div class="nine columns">
-        <section>
-            <h1>Employment</h1>
-            <article>
-                <header>
-                    <h1>Software Engineer</h1>
-                    <span><address>Edinburgh, UK</address><time>2015 to Present</time></span>
-                </header>
-                <p>Lorem ipsum dolor sit amet, his et viris petentium philosophia,
-                    at vix debitis deleniti. At vis velit volumus alienum, agam vocent assueverit usu ex. </p>
-            </article>
-            <article>
-                <header>
-                    <h1>iOS Developer</h1>
-                    <span><address>Glasgow, UK</address><time>2014 to 2015</time></span>
-                </header>
-                <p>Qui bonorum menandri intellegebat ex, mel quando oblique an. Et eam virtute debitis philosophia,
-                    unum ancillae disputationi vim in. Ipsum vidisse meliore ex eum,
-                    delectus tacimates conclusionemque has ei. Eam ubique cetero scribentur ne.</p>
-            </article>
-            <article>
-                <header>
-                    <h1>Teaching Assistant</h1>
-                    <span><address>University of Glasgow, Glasgow, UK</address><time>2013 to 2014</time></span>
-                </header>
-                <p>Latine bonorum deserunt at nam. Mea nisl officiis eu, propriae similique has te, mei an brute meliore electram.
-                    Quo admodum omittantur ei, etiam principes at eos. Sit vocent commodo ceteros in, at mel idque everti.</p>
-            </article>
-            <article>
-                <header>
-                    <h1>iOS Developer</h1>
-                    <span><address>Student Start-up, Glasgow, UK</address><time>2013</time></span>
-                </header>
-                <p>Mucius sententiae et mei, nec an diam ignota, tale epicurei intellegebat ne sit. Sumo pertinacia contentiones duo ei.</p>
-            </article>
-            <article>
-                <header>
-                    <h1>Web Developer</h1>
-                    <span><address>Birmingham, UK</address><time>2007 to 2010</time></span>
-                </header>
-                <p> Et sed tritani volumus, dico rebum facilisis ea sed. His mundi efficiantur concludaturque no.
-                    Cu eos argumentum constituam repudiandae, eu eum lorem nostrum, ei mel dicam iriure fabellas.
+    <header class="column column-left">
+        <div class="user-card table">
+            <div class="cell">
+                <img class="avatar" src="<%- url_for(theme.avatar) %>" alt="avatar">
+                <h4 class="name">Jesseyx</h4>
+                <p class="job">FRONT-END WEB DEVELOPER</p>
+                <p class="signature">一个立志成为优雅前端工程师的小白.</p>
+                <nav class="nav-list">
+                    <ul>
+                        <li><a href="">时间轴</a></li>
+                        <li><a href="">分类</a></li>
+                        <li><a href="">标签</a></li>
+                        <li><a href="">Links</a></li>
+                    </ul>
+                </nav>
+                <p class="social-links">
+                    <a href=""><i class="fa fa-fw fa-envelope"></i></a>
+                    <a href=""><i class="fa fa-fw fa-github"></i></a>
+                    <a href=""><i class="fa fa-fw fa-weibo"></i></a>
+                    <a href=""><i class="">知</i></a>
                 </p>
-            </article>
+            </div>
+        </div>
+    </header>
+    <div class="column column-right">
+        <section class="">
+            <header>
+                <h1>我是测试标题</h1>
+                <span><address>Apr 29 2016</address><time>布局</time></span>
+            </header>
+            <p>Lorem ipsum dolor sit amet, his et viris petentium philosophia,
+                    at vix debitis deleniti. At vis velit volumus alienum, agam vocent assueverit usu ex.</p>
         </section>
 
         <footer class="thirteen columns">

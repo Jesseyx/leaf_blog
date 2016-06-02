@@ -17,6 +17,11 @@
 
     .name {
         margin-bottom: 1rem;
+        color: #551a8b;
+    }
+
+    .job {
+        color: #27a822;
     }
 
     .social-links {
@@ -28,10 +33,13 @@
 }
 
 .nav-list {
+    color: #27a822;
+
     ul {
         list-style: none;
         font-size: 1.3rem;
     }
+
     li {
         display: inline-block;
         zoom: 1;
@@ -39,6 +47,63 @@
             content: "/";
             display: inline-block;
             margin-left: 5px;
+        }
+    }
+}
+
+.post-main {
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 30px 20px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.post-item {
+    margin-bottom: 2rem;
+}
+
+.post-title {
+    > h1, > p {
+        line-height: 1.8;
+    }
+    > h1 {
+        font-size: 1.8rem;
+    }
+    > p {
+        margin-bottom: 0;
+    }
+
+    .time, .label {
+        color: #808080;
+    }
+
+    .label {
+        margin-left: 6px;
+        &::before {
+            content: "-";
+            margin-right: 6px;
+        }
+    }
+}
+
+.post-content {
+    margin-bottom: 0;
+}
+
+.nav-list, .post-title > h1 {
+    a {
+        color: #27a822;
+        &:hover {
+            color: #86cc83;
+        }
+    }
+}
+.social-links {
+    a {
+        color: #551a8b;
+        &:hover {
+            color: #8d7edc;
         }
     }
 }

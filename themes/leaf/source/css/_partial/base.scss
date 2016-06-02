@@ -73,6 +73,7 @@ hr {
 
 a {
     text-decoration: none;
+    transition: color .3s;
     &:visited {
         text-decoration: none;
     }
